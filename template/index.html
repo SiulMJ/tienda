@@ -7,6 +7,24 @@
 {% block title %} inicio {% endblock %}
 
 {% block content %} 
+<div class="logo">
+    <h1>Tienda</h1>
+</div>
+
+<div class="navbar">
+    <ul>
+        <li><a href="{{ url_for('index') }}">inicio</a></li>
+        <li><a href="{{ url_for('comprar') }}">comprar</a></li>
+        <li><a href="{{ url_for('catalogo') }}">ver catalogo</a></li>
+        <li><a href="{{ url_for('login') }}">login</a></li>
+        <li><a href="{{ url_for('registro') }}">registro</a></li>
+    </ul>
+</div>
+
+<div class="contenido">
+
+</div>
+
 
 
 {% endblock %}
